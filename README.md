@@ -1,5 +1,5 @@
 
-### what is "How-to-find-friend-from-column"? (Php+Oracle)
+### what is "How to find friend from column"? (Php+Oracle)
 
 I want to find member_no =10002 who is his friends. When I use 
 
