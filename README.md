@@ -16,7 +16,7 @@ the result=> friend_no=10003,10004. But it missed the friend_no=10001.
 
 ####Solution:
 
-##### First: change sql command, the result => will show like below.
+#####First: change sql command, the result => will show like below.
 
 ```sql
   SELECT member_no,friend_no
@@ -26,7 +26,7 @@ the result=> friend_no=10003,10004. But it missed the friend_no=10001.
 
 ![image](https://raw.githubusercontent.com/chliwei199/How-to-find-friend-from-column/master/tablePic2.png)
 
-##### Second: I can get the array like the pic. So use foreach to save 10002's friend to array.
+#####Second: I can get the array like the pic. So use foreach to save 10002's friend to array.
 
 ```php
   if(!empty($friends)){
